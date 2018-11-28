@@ -66,7 +66,7 @@ if __name__ == '__main__':
                 image_output_path = 'output/{}.jpg'.format(ID)
                 print('Writing image for label ID {} to {}'.format(ID, image_output_path))
                 Image.fromarray(image, mode=colorspace).save(image_output_path)
-                input("Press ENTER to continue...")
+                # input("Press ENTER to continue...")
 
                 label_output_path = 'output/{}-label.jpg'.format(ID)
                 print('Writing label for label ID {} to {}'.format(ID, label_output_path))
@@ -74,7 +74,7 @@ if __name__ == '__main__':
                 label = label[:,:,0]
                 # Multiplication to scale labels for increased visibility
                 Image.fromarray(floor(255 / len(legend.keys())) * label, mode='L').save(label_output_path)
-                input("Press ENTER to continue...")
+                # input("Press ENTER to continue...")
 
         except tf.errors.OutOfRangeError:
             print('Dataset iterator exhausted')
