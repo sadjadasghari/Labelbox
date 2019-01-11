@@ -22,8 +22,8 @@ if __name__ == '__main__':
     if not export_file:
         fail_for_missing_file()
 
-    with open(export_file) as f:
-        export_json = load(f)
+    # with open(export_file) as f:
+        # export_json = load(f)
 
     legend = {"Hairline": 2, "Hands": 1, "Face": 4, "Torso": 3}
     # export_json['legend']

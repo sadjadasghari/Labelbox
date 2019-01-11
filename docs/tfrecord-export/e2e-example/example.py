@@ -1,4 +1,4 @@
-import sys
+import sys, os
 from json import load
 import math
 import tensorflow as tf
@@ -71,6 +71,13 @@ if __name__ == '__main__':
 
     legend = export_json['legend']
     tfrecord_paths = export_json['tfrecord_paths']
+
+    legend = {"Hairline": 2, "Hands": 1, "Face": 4, "Torso": 3}
+    # export_json['legend']
+    pth = '/data/labels/person_attribute/export/tfrecords/'
+    tfrecord_paths = os.listdir(pth) # -00000-of-00010'
+    # export_json['tfrecord_paths']
+    tfrecord_paths = [pth + s for s in tfrecord_paths] # files
 
     image_dim = 512
     test_set_size = math.ceil(0.20 * len(tfrecord_paths))
