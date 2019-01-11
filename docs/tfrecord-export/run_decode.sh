@@ -26,6 +26,7 @@ docker run \
  --rm \
  -it \
  ${IMAGE_NAME} \
- python3 decode_tfrecord_export.py $EXPORT_FILENAME
+ # python3 decode_tfrecord_export.py $EXPORT_FILENAME
+ python3 labelbox_tfrecord.py $EXPORT_FILENAME
 
 
