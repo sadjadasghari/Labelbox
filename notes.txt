@@ -1,0 +1,17 @@
+encoding dataset into tfrecord:
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md
+https://github.com/yeephycho/tensorflow_input_image_by_tfrecord/blob/master/src/build_image_data_v0.7.py
+
+
+decoding:
+https://stackoverflow.com/questions/45427637/numpy-to-tfrecords-is-there-a-more-simple-way-to-handle-batch-inputs-from-tfrec
+https://github.com/yeephycho/tensorflow_input_image_by_tfrecord/blob/master/src/read_tfrecord_data.py
+https://github.com/dikatok/tf-dataset-toy/blob/master/read_tfrecords.py
+
+https://medium.com/ymedialabs-innovation/how-to-use-tfrecord-with-datasets-and-iterators-in-tensorflow-with-code-samples-ffee57d298af
+https://jhui.github.io/2017/11/21/TensorFlow-Importing-data/
+https://medium.com/coinmonks/beginners-guide-to-feeding-data-in-tensorflow-part2-5e2506d75429
+https://support.labelbox.com/docs/tensorflow
+https://medium.com/labelbox/end-to-end-machine-learning-workflows-using-tensorflow-and-labelbox-d43f26ed8cd9
+https://github.com/tensorflow/docs/blob/master/site/en/api_guides/python/io_ops.md
+
