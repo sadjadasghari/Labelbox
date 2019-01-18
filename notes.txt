@@ -1,3 +1,10 @@
+links from labelbox/cyrus:
+https://support.labelbox.com/docs/examplepy-tensorflow
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md
+https://support.labelbox.com/docs/export-overview
+https://support.labelbox.com/docs/tensorflow
+https://medium.com/labelbox/end-to-end-machine-learning-workflows-using-tensorflow-and-labelbox-d43f26ed8cd9
+
 encoding dataset into tfrecord:
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/using_your_own_dataset.md
 https://github.com/yeephycho/tensorflow_input_image_by_tfrecord/blob/master/src/build_image_data_v0.7.py
